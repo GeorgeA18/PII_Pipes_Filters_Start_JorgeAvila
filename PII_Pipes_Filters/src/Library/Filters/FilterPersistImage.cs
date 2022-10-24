@@ -18,8 +18,10 @@ namespace CompAndDel.Filters
 
         public IPicture Filter(IPicture image)
         {
+
             string path = @$"..\Program\Steps_Filters\step{this.numberSteps}.jpg";
             PictureProvider provider = new PictureProvider();
+            this.numberSteps += 1;
             provider.SavePicture(image, path);
             return image;
         }

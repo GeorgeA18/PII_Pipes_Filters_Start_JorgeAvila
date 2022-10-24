@@ -9,6 +9,7 @@ namespace CompAndDel
         static void Main(string[] args)
         {
             // ! Ejercicio 3   ---------------------------------------
+            /*
             PictureProvider provider = new PictureProvider();
 
             // Obtener los valores de la imagen
@@ -45,7 +46,7 @@ namespace CompAndDel
 
 
             Console.WriteLine("Proceso Finalizado.");
-
+            */
 
             // ! Ejercicio 3   ---------------------------------------
             /*
@@ -82,7 +83,7 @@ namespace CompAndDel
 
 
             // ! Ejercicio 2   ---------------------------------------
-            /*
+            
             PictureProvider provider = new PictureProvider();
 
             // Obtener los valores de la imagen
@@ -110,7 +111,7 @@ namespace CompAndDel
 
 
             Console.WriteLine("Proceso Finalizado.");
-            */
+            
 
 
             // ! Ejercicio 1   ---------------------------------------
